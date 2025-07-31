@@ -76,3 +76,15 @@ jobs:
 
     - name: Run ETL script
       run: python etl.py
+```
+---
+## ⚠️ Possible Issues
+
+- **Secrets:** Make sure to store API keys, DB credentials, etc., securely in GitHub Actions Secrets.
+- **Rate Limits:** Watch out for API rate limits if triggering frequently.
+- **Logging & Monitoring:** Consider adding logging or error notifications (e.g., email, Slack) for long-term use.
+
+---
+## 🚀 Result
+
+This automation now runs daily without manual intervention. It ensures the Sales team always has fresh data in their reporting table, saving hours of manual work each week.
