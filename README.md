@@ -88,3 +88,10 @@ jobs:
 ## 🚀 Result
 
 This automation now runs daily without manual intervention. It ensures the Sales team always has fresh data in their reporting table, saving hours of manual work each week.
+
+---
+## 📎 Summary
+
+This automation now runs daily without manual intervention. It ensures the Sales team always has fresh data in their reporting table—saving hours of manual work each week.
+
+This project shows how automation can drastically reduce manual workflows. Using GitHub Actions to schedule Python scripts makes it easy to maintain, scalable, and hands-free.
