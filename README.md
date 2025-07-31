@@ -96,3 +96,7 @@ This automation now runs daily without manual intervention. It ensures the Sales
 
 
 This project shows how automation can drastically reduce manual workflows. Using GitHub Actions to schedule Python scripts makes it easy to maintain, scalable, and hands-free.
+
+
+---
+***This repo is for demo purposes and does not contain any sensitive or proprietary data.***
