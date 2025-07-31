@@ -1,6 +1,6 @@
 # Simple Automation Using GitHub Actions
 
-A simple demo showing how to automate data extraction from an API, transform it using Python, and load it into a MySQL database — all orchestrated with GitHub Actions.
+A simple demo showing how to automate data extraction from an API, transform it using Python, and load it into a MySQL database, all orchestrated with GitHub Actions.
 
 ---
 
@@ -23,7 +23,7 @@ Automate the workflow using:
 ## ⚙️ Steps Taken
 
 ### 1. API Integration  
-Requested access to the API endpoints for the required dataset. This step was key — APIs make automation possible.
+I requested access to the necessary API endpoints. This was crucial, it allowed me to bypass the GUI and download data programmatically.
 
 ### 2. Python Script  
 Wrote a Python script that:
@@ -44,7 +44,9 @@ Created a GitHub repository and added:
 
 ## 🤖 Automation with GitHub Actions
 
-GitHub Actions allows automation directly from your repo. With a workflow file, you can run your Python script on a schedule (e.g., daily at midnight).
+There are many ways to schedule and automate Python scripts (cron jobs, Airflow, etc.), but for simplicity and availablity, I used GitHub Actions.
+
+GitHub Actions is a built-in CI/CD tool that allows you to automate workflows directly from your repository. It can run your Python script on a schedule, install dependencies, and execute your code, without needing a separate cloud server.
 
 ### Basic GitHub Actions Workflow
 
