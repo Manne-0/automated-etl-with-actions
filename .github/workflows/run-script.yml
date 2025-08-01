@@ -1,25 +1,25 @@
-name: Daily Data Pipeline
+# name: Daily Data Pipeline
 
-on:
-  schedule:
-    - cron: '0 5 * * *'  # Runs daily at 5 AM UTC
-  workflow_dispatch:     # Also allows manual trigger
+# on:
+#   schedule:
+#     - cron: '0 5 * * *'  # Runs daily at 5 AM UTC
+#   workflow_dispatch:     # Also allows manual trigger
 
-jobs:
-  run-script:
-    runs-on: ubuntu-latest
+# jobs:
+#   run-script:
+#     runs-on: ubuntu-latest
 
-    steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v3
+#     steps:
+#     - name: Checkout Repository
+#       uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
+#     - name: Set up Python
+#       uses: actions/setup-python@v4
+#       with:
+#         python-version: '3.10'
 
-    - name: Install dependencies
-      run: pip install -r requirements.txt
+#     - name: Install dependencies
+#       run: pip install -r requirements.txt
 
     - name: Run Python script
       run: python pipeline.py
